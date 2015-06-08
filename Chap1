@@ -1,0 +1,15 @@
+public static void main(String args[]){ }
+main method is the main entery point of the Java program. 
+the class is declared main method or not it will not check compiler. only JVM is resposible to check when runinig the Java 
+program. if main method is not declared in class runtime exception throws NosuchmethodError: main - Runtime Exception
+why main method public- To call JVM anyware in the program
+why main method static- withouot exsting object also JVM has to call main method & nothing relationship with any object with 
+main method
+why main method void - main method must not return values to JVM
+why main method main -  this is name configure inside the JVM
+why main method String args[] - command line arguemnts
+There are some changes we can modify with the main method
+* order of the visiblity modifiers insteand of public ststic can call static public
+* changes of the command line argument - String []args,String[] args, String args[], String... args, String a[]
+* changes with following optional specifiers- final, strictfp, synchoronized
+changing main mathod without above acceptable changes will generate runtime exception. No compiler error. 
